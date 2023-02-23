@@ -7,9 +7,9 @@ sharepoint.domain: ""
 sharepoint.username: ""
 #The password used to login to Sharepoint server
 sharepoint.password: ""
-#The address of the sharepoint farm. Example: http://sharepoint-host:14293/
-sharepoint.host_url: http://sharepoint-host:14682/
-#Specifies the site collections whose contents the user wants to fetch and index.
+#The address of the sharepoint farm. Example: http://sharepoint-host:14293 End without slash.
+sharepoint.host_url: http://sharepoint-host:14682
+#Specifies the site collections whose contents the user wants to fetch and index. For the root site collection, use Root.
 sharepoint.site_collections:
     - Connector
 #Validate the SSL certificate if host is secured. Specify Yes if host is secured and want to validate the SSL certificate, else No.
