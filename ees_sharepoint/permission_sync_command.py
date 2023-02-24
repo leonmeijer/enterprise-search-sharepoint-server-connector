@@ -71,7 +71,7 @@ class PermissionSyncCommand(BaseCommand):
 
     def get_user_groups(self, user_ids):
         """This method returns the groups of each user in all the site-collections
-        :param user_ids: user ids to fetch the groups of the specific user"""
+        :param user_ids: user ids to fetch the groups of the specific user""" 
         user_group = {}
         for collection in self.site_collections:
             user_group_collection = {}
